@@ -1,0 +1,21 @@
+{
+  "name": "insta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scrape": "ts-node index.ts",
+    "analytics": "ts-node data_parser.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "instagram-private-api": "^1.45.3",
+    "prompt-sync": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/prompt-sync": "^4.2.0"
+  }
+}

@@ -1,0 +1,6 @@
+.env
+node_modules
+.idea
+followers.json
+followees.json
+session.json
